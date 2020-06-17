@@ -1,0 +1,17 @@
+.mycontainer div {
+    margin-bottom: 10px;
+}
+
+.login_background{
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eurogamer.net%2Farticles%2F2020-06-12-the-last-of-us-part-2-review-a-gut-wrenching-sequel&psig=AOvVaw2QHHA_KIWJcsRGdOVm1kH0&ust=1592308200676000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj_s7jgg-oCFQAAAAAdAAAAABAD");
+}
+
+.login_fix_{
+    background: #fffdfd40;
+    border: white;
+    padding-top: 172px;
+    font-style: italic;
+    color: aliceblue;
+    width: 500px0;
+    height: 500px;
+}

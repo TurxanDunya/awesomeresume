@@ -6,7 +6,48 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2897c54f-19b0-4149-ad9e-dc3ce4af4102" name="Default Changelist" comment="" />
+    <list default="true" id="2897c54f-19b0-4149-ad9e-dc3ce4af4102" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/inter/AbstractDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/Country_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/Skill_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/UserSkill_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/User_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/META-INF/ResumeWebApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/ErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/com/company/resume/filter/JspFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/main/webapp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/main/webapp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/classes/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/lib/ResumeDbApp-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/lib/mysql-connector-java-8.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeWebApp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ResumeWebApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/controller/ErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/controller/UserDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/resume/filter/JspFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/assets/css/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/userdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/users.jsp" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +64,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -31,7 +75,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1dAOSwiXirZgii1LMnX1Shjbzfk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/company/resume" />
@@ -231,10 +277,28 @@
       <workItem from="1592138096233" duration="903000" />
       <workItem from="1592207821418" duration="12672000" />
       <workItem from="1592380548543" duration="5250000" />
+      <workItem from="1592585817938" duration="267000" />
+      <workItem from="1592587679132" duration="84000" />
+      <workItem from="1592589787187" duration="120000" />
+      <workItem from="1592593437259" duration="55000" />
+      <workItem from="1592650728805" duration="3679000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

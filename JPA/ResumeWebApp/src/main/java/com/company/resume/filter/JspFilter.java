@@ -11,8 +11,8 @@ import java.util.logging.LogRecord;
 
 @WebFilter(filterName = "JSPFileFilter", urlPatterns = {"*.jsp"})
 public class JspFilter implements Filter {
-    public void doFilter (ServletRequest request, ServletResponse response,
-                          FilterChain chain){
+    public void doFilter(ServletRequest request, ServletResponse response,
+                         FilterChain chain) {
 
         HttpServletResponse res = (HttpServletResponse) response;
 

@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(final String[] args) throws Exception {
         UserDaoInter dao = Context.instanceUserDao();
-        User u = dao.getById(6);
-        System.out.println(u.getEmail());
+        
+        User u = dao.findByEmail("turxan.dunya97@gmail.com");
+        System.out.println("u= " + u);
     }
 }

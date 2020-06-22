@@ -4,44 +4,33 @@
     <list default="true" id="da8702fd-6b90-49da-99e0-4e7716e302b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/inter/AbstractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/inter/AbstractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ResumeDbApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ResumeDbApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/CountryDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/SkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/SkillDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/AbstractDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Country_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Skill_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/User_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/CountryDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/SkillDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/SkillDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserSkillDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserSkillDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ResumeWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ResumeWebApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ResumeWebApp/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/src/main/webapp/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/META-INF/ResumeWebApp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/ErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/controller/UserDetailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/com/company/resume/filter/JspFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/main/webapp/assets/css/users.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/main/webapp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/main/webapp/userdetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/classes/main/webapp/users.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/ResumeDbApp-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/mysql-connector-java-8.0.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/assets/css/users.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/userdetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/ResumeWebApp/users.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/META-INF/ResumeWebApp.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/com/company/resume/controller/ErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/com/company/resume/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/com/company/resume/controller/UserDetailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/com/company/resume/filter/JspFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/main/webapp/assets/css/users.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/main/webapp/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/main/webapp/userdetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/target/classes/main/webapp/users.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +78,7 @@
       <workItem from="1592381559255" duration="919000" />
       <workItem from="1592585792185" duration="9000" />
       <workItem from="1592657648959" duration="64000" />
+      <workItem from="1592830060699" duration="745000" />
     </task>
     <servers />
   </component>
@@ -100,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

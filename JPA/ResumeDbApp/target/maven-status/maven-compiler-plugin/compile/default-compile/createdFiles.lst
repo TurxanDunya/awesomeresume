@@ -7,10 +7,15 @@ com\company\entity\Skill.class
 com\company\dao\impl\UserSkillDaoImpl.class
 com\company\entity\User.class
 com\company\dao\impl\CountryDaoImpl.class
+com\company\entity\Skill_.class
+com\company\entity\UserSkill_.class
 com\company\dao\inter\UserSkillDaoInter.class
 com\company\entity\Country.class
+com\company\entity\User_.class
 com\company\entity\EmploymentHistory.class
+com\company\entity\Country_.class
 com\company\dao\inter\CountryDaoInter.class
+com\company\entity\EmploymentHistory_.class
 com\company\dao\impl\SkillDaoImpl.class
 com\company\dao\inter\SkillDaoInter.class
 com\company\dao\inter\EmploymentHistoryDaoInter.class

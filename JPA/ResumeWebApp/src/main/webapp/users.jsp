@@ -7,7 +7,7 @@
 <%@page import="com.company.entity.User" %>
 <%@page import="com.company.main.Context" %>
 <%@page import="com.company.dao.inter.UserDaoInter" %>
-<%@page import="java.util.List" %>
+<%@ page import="java.util.List" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -18,12 +18,18 @@
     <script src="https://kit.fontawesome.com/9986b78616.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script type="text/javascript" src="assets/js/users.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-    <%
+<%
     UserDaoInter userDao = Context.instanceUserDao();
 
     String name = request.getParameter("name");
@@ -35,24 +41,24 @@
     }
 
     List<User> list = userDao.getAll(name, surname, nationalityId);
-    %>
+%>
 
-    <div class="container mycontainer col-12">
-        <div class="row">
-            <div class="col-4">
+<div class="container mycontainer col-12">
+    <div class="row">
+        <div class="col-4">
             <form action="users.jsp" method="GET">
-            </div>
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input onkeyup="writeWhatIamTyping()"
-                            placeholder="Enter Name" class="form-group" type="text" name="name" value=""/>
+                           placeholder="Enter Name" class="form-group" type="text" name="name" value=""/>
                 </div>
                 <div class="form-group">
                     <label for="surname">Surname:</label>
                     <input placeholder="Enter Surname" class="form-group" type="text" name="surname" value=""/>
                 </div>
 
-                <input visible = "true" type="submit" class="btn btn-primary" name="search" value="Search" id="btnsearch"/> //submit formdaki prosesi ishe salir
+                <input visible="true" type="submit" class="btn btn-primary" name="search" value="Search"
+                       id="btnsearch"/> //submit formdaki prosesi ishe salir
             </form>
         </div>
         <div>
@@ -72,17 +78,20 @@
                     for (User u : list) {
                 %>
                 <tr>
-                    <td><%=u.getName()%> </td>
-                    <td><%=u.getSurname()%> </td>
-                    <td><%=u.getNationality().getName() == null ? "N/A" : u.getNationality().getName()%> </td>
+                    <td><%=u.getName()%>
+                    </td>
+                    <td><%=u.getSurname()%>
+                    </td>
+                    <td><%=u.getNationality().getName() == null ? "N/A" : u.getNationality().getName()%>
+                    </td>
                     <td style="width: 5px">
-                            <input type="hidden" name="id" value="<%=u.getId()%>"/>
-                            <input type="hidden" name="action" value="delete"/>
-                            <button class="btn btn-danger" type="submit" value="delete"
+                        <input type="hidden" name="id" value="<%=u.getId()%>"/>
+                        <input type="hidden" name="action" value="delete"/>
+                        <button class="btn btn-danger" type="submit" value="delete"
                                 data-toggle="modal" data-target="#exampleModal"
-                            onclick="setIdForDelete(<%=u.getId()%>)">
+                                onclick="setIdForDelete(<%=u.getId()%>)">
                             <i class="fas fa-trash-alt"></i>
-                            </button>
+                        </button>
                     </td>
                     <td style="width: 5px">
                         <form action="userdetail" method="GET">
@@ -101,12 +110,13 @@
     </div>
 
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" >
+    <button type="button" class="btn btn-primary">
         Launch demo modal
     </button>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -120,14 +130,15 @@
                 </div>
                 <div class="modal-footer">
                     <form action="userdetail" method="POST">
-                    <input type="hidden" name="id" value="" id="idForDelete"/>
-                    <input type="hidden" name="action" value="delete"/>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <input type="submit" class="btn btn-danger" value="Delete"/>
+                        <input type="hidden" name="id" value="" id="idForDelete"/>
+                        <input type="hidden" name="action" value="delete"/>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-danger" value="Delete"/>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

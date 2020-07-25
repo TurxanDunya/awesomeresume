@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="da8702fd-6b90-49da-99e0-4e7716e302b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ResumeDbApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ResumeDbApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResumeDbApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ResumeDbApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/CountryDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/SkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/SkillDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/AbstractDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/CountryDaoInter.class" afterDir="false" />
@@ -18,31 +15,98 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserDaoInter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserSkillDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dao/inter/UserSkillDaoInter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Country_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Country_.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/EmploymentHistory_.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Skill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/Skill_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/Skill_.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/entity/UserSkill_.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ResumeWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/src/main/java/com/company/resume/filter/JspFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/src/main/webapp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/src/main/webapp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeWebApp/ResumeWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeWebApp/ResumeWebApp.iml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1350237619">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
   <component name="ProjectId" id="1dAqJM6N9aYCkU2S8QOJ8wLvwJu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ResumeDbApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDbApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDbApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDbApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDbApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDbApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDbApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDbApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ResumeDbApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ResumeDbApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -79,8 +143,46 @@
       <workItem from="1592585792185" duration="9000" />
       <workItem from="1592657648959" duration="64000" />
       <workItem from="1592830060699" duration="745000" />
+      <workItem from="1594968194537" duration="21000" />
+      <workItem from="1594970745347" duration="81000" />
+      <workItem from="1595059276691" duration="81000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -91,11 +193,20 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
 </project>

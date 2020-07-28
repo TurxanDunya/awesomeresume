@@ -37,6 +37,24 @@ public class UserRestController {
         return ResponseEntity.ok(ResponseDTO.of(userDTOS));
     }
 
+    @GetMapping("/foo")
+    public ResponseEntity<ResponseDTO> foo(
+            @RequestParam(name="name", required = false) String name,
+            @RequestParam(name="surname", required = false) String surname,
+            @RequestParam(name="age", required = false) Integer age
+    ){
+        List<User> users = userService.getAll(name, surname, age);
+
+        List<UserDTO> userDTOS = new ArrayList<>();
+
+        for (int i = 0; i<users.size(); i++){
+            User u = users.get(i);
+            userDTOS.add(new UserDTO(u));
+        }
+//        return ResponseEntity.status(HttpStatus.OK).body("ewfewfwewec");
+        return ResponseEntity.ok(ResponseDTO.of(userDTOS));
+    }
+
     @GetMapping("/users/{id}")
     public ResponseEntity<ResponseDTO> getUser(@PathVariable("id") int id){
         User user = userService.getById(id);

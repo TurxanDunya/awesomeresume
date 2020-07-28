@@ -1,5 +1,7 @@
 package com.company.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,8 +15,10 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
+import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
-import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
+
+import javax.sql.DataSource;
 
 @Configuration
 @EnableWebSecurity
@@ -29,6 +33,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //
 //    @Value("${security.security-realm}")
 //    private String securityRealm;
+
+    @Autowired
+    @Qualifier("dataSource")
+    DataSource defaultDataSource;
 
     @Bean
     @Override
@@ -50,7 +58,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public TokenStore tokenStore(){
-        return new JwtTokenStore(accessTokenConverter());
+        return new JdbcTokenStore(defaultDataSource);
     }
 
     @Bean

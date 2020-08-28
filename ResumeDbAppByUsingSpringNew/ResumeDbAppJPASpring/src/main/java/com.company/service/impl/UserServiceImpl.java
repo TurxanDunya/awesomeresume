@@ -21,7 +21,6 @@ public class UserServiceImpl implements UserServiceInter {
     private UserDaoInter userDao;
 
     public List<User> getAll(String name, String surname, Integer nationalityId) {
-
         return userDao.getAll(name, surname, nationalityId);
     }
 

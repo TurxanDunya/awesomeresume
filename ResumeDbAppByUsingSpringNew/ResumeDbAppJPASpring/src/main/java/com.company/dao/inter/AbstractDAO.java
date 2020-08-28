@@ -16,7 +16,7 @@ public abstract class AbstractDAO {
         Connection c = DriverManager.getConnection(url, username, password);
         return c;
     }
-
+    
     private static EntityManagerFactory emf = null;
 
     public EntityManager em() {

@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.dao.impl.UserRepository;
 import com.company.dao.inter.UserDaoInter;
 import com.company.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +21,28 @@ public class ResumeDbAppJpaSpringApplication {
 		SpringApplication.run(ResumeDbAppJpaSpringApplication.class, args);
 	}
 
+//	@Autowired
+//	@Qualifier("userDao1")
+//	private UserDaoInter userDao;
+//
+//	@Bean
+//	public CommandLineRunner run(){
+//		CommandLineRunner clr = new CommandLineRunner(){
+//
+//			@Override
+//			public void run(String... args) throws Exception {
+//				List<User> list = userDao.getAll(null, null, null);
+//
+//				User u = list.get(0);
+//				u.setName(u.getName().toLowerCase());
+//				userDao.updateUser(u);
+//			}
+//		};
+//		return clr;
+//	}
+
 	@Autowired
-	@Qualifier("userDao1")
-	private UserDaoInter userDao;
+	private UserRepository userRepository;
 
 	@Bean
 	public CommandLineRunner run(){
@@ -30,14 +50,11 @@ public class ResumeDbAppJpaSpringApplication {
 
 			@Override
 			public void run(String... args) throws Exception {
-				List<User> list = userDao.getAll(null, null, null);
+				List<User> list = userRepository.findAll();
 
-				User u = list.get(0);
-				u.setName(u.getName().toLowerCase());
-				userDao.updateUser(u);
+				System.out.println(list);
 			}
 		};
 		return clr;
 	}
-
 }

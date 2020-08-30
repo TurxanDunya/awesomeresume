@@ -1,14 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: TD-PC
-  Date: 6/15/2020
-  Time: 3:52 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core">--%>
-<%@ taglib prefix="input" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <html>
 <head>
@@ -26,7 +16,7 @@
 </head>
 <body class="login_background">
 
-<form:form action='<spring:url value="/login"/>' method="POST">
+<form action='<spring:url value="/login"/>' method="post">
 
     <div class="col-4 container login_fix_">
         <center>
@@ -34,15 +24,15 @@
         </center>
         <div class="form-group">
             <label>Email Address</label>
-            <form:input type="text" class="fadeIn second" name="username" placeholder="Username"></form:input>
+            <input type="text" class="fadeIn second" name="username" placeholder="Username">
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input:password class="fadeIn third" name="password" placeholder="Password"/>
+            <password class="fadeIn third" name="password" placeholder="Password"/>
         </div>
         <button type="submit" class="btn btn-primary" name="login">Login</button>
     </div>
-</form:>
+    </form>
 
 </body>
 </html>

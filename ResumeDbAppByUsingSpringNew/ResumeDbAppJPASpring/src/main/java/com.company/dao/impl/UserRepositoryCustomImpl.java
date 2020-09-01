@@ -23,7 +23,7 @@ public class UserRepositoryCustomImpl implements UserRepositoryCustom {
     EntityManager em;
 
     @Override
-    @Cacheable(value = "users")
+//    @Cacheable(value = "users")
     public List<User> getAll(String name, String surname, Integer nationalityId) {
         String jpql = "select u from User u where 1=1";
 

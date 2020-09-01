@@ -21,6 +21,7 @@ public class UserRestController {
 
     @GetMapping("/users")
     public ResponseEntity<ResponseDTO> getUsers(
+            //these are filters. You can search by name, surname or age. Whatever you want!
             @RequestParam(name="name", required = false) String name,
             @RequestParam(name="surname", required = false) String surname,
             @RequestParam(name="age", required = false) Integer age

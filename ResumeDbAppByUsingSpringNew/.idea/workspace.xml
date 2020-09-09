@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf2f9cbd-8d19-4089-9fb7-f8f1f111e092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/assets/css/users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/js/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/userdetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/usersJ.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/ResumeDbApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/ResumeDbApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/CountryDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/EmploymentHistoryDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/SkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/SkillDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/AbstractDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/CountryDaoInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/EmploymentHistoryDaoInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/SkillDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/SkillDaoInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/UserDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/UserDaoInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/UserSkillDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/dao/inter/UserSkillDaoInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Country_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Country_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/EmploymentHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/EmploymentHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/EmploymentHistory_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/EmploymentHistory_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Skill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Skill_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/Skill_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/UserSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/UserSkill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/UserSkill_.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/entity/UserSkill_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeDbApp/target/classes/com/company/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JPA/ResumeWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JPA/ResumeWebApp/ResumeWebApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/resumewebapp_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ResumeDbAppJPASpring/target/" />
     <ignored path="$PROJECT_DIR$/resumewebapp/target/" />
@@ -45,16 +19,17 @@
     <session id="-220350906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.124" value="1" />
           <entry key="project.open.time.135" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -96,35 +71,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resumerestapi/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/ResumerestapiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,7 +175,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.company.resumerestapi" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ResumeDbAppByUsingSpringNew" type="b2602c69:ProjectViewProjectNode" />
@@ -235,22 +184,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.company.resumerestapi" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595571017856" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resumerestapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ResumeDbAppJPASpring" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -356,11 +303,12 @@
       <workItem from="1595506851682" duration="1061000" />
       <workItem from="1595569889156" duration="551000" />
       <workItem from="1595570627715" duration="432000" />
+      <workItem from="1599645332428" duration="581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27145000" />
+    <option name="totallyTimeSpent" value="27726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +323,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -393,7 +341,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
       <window_info anchor="right" id="CDI" order="0" />
@@ -444,12 +392,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/target/surefire-reports/TEST-com.company.ResumeDbAppJPASpring.ResumeDbAppJpaSpringApplicationTests.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/target/surefire-reports/com.company.ResumeDbAppJPASpring.ResumeDbAppJpaSpringApplicationTests.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/target/surefire-reports/TEST-com.company.ResumeDbAppJPASpring.ResumeDbAppJpaSpringApplicationTests.xml" />
+    <entry file="file://$PROJECT_DIR$/ResumeDbAppJPASpring/target/surefire-reports/com.company.ResumeDbAppJPASpring.ResumeDbAppJpaSpringApplicationTests.txt" />
     <entry file="file://$PROJECT_DIR$/resumewebapp/src/main/webapp/WEB-INF/usersJ.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -539,9 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,31 +511,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/Controller/UserRestController.java" />
+    <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/ResumerestapiApplication.java" />
+    <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/resumerestapi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/ResumerestapiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resumerestapi/src/main/java/com.company.resumerestapi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>

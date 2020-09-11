@@ -50,7 +50,7 @@
 //    }
 //
 //    @Test
-//    public void testGivenNullThenGetAll() {
+//    public void shouldReturnAllUsers_whenNoParametrPassed() {
 //        List<User> list = userService.getAll(null, null, null);
 //
 //        Assertions.assertEquals(1, list.size());

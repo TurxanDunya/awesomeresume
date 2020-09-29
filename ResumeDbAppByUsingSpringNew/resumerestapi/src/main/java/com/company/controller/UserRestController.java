@@ -3,6 +3,7 @@ package com.company.controller;
 import com.company.dto.ResponseDTO;
 import com.company.entity.User;
 import com.company.dto.UserDTO;
+import com.company.service.impl.UserServiceImpl;
 import com.company.service.inter.UserServiceInter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
